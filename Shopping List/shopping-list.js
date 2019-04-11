@@ -1,5 +1,3 @@
-"use strict";
-
 function addClickEventListener(elem, func) {
     elem.addEventListener('click', func);
 }
