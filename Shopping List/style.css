@@ -1,0 +1,74 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body, input#newItem, input#addItem {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #333333;
+}
+#wrapper {
+    width: 500px;
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 50px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+ul {
+    padding: 0px;
+    margin: 30px 0px;
+}
+li {
+    list-style-type: none;
+    padding: 16px;
+    font-size: 22px;
+    border-bottom: 1px solid #333333;
+}
+.checkbox {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.delete {
+    background-color: #C90F19;
+    color: white;
+    padding: 6px 10px;
+    font-size: 14px;
+    float: right;
+    cursor: pointer;
+}
+.inputs {
+    margin-top: 50px;
+}
+input#newItem {
+    width: 79%;
+    font-size: 16px;
+    padding: 9px;
+    border: 1px solid #333333;
+}
+input#addItem {
+    float: right;
+    width: 20%;
+    padding: 10px 20px;
+    background-color: #56CF47;
+    border: none;
+    font-size: 16px;
+}
+input#addItem:focus {
+    outline: none;
+}
+.done .checkbox {
+    background-color: #56CF47;
+    border: 1px solid #56CF47;
+}
+.done .checkbox:hover {
+    background-color: rgb(80, 189, 65);
+}
+.done .item {
+    text-decoration: line-through;
+    opacity: 0.5;
+}

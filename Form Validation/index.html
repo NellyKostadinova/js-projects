@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <form action="#">
+            <div id="user-info">
+                <h1>User Information:</h1>
+                <div class="input-container">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" />
+                    <p class="result" id="username-result"></p>    
+                </div>
+                <div class="input-container">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" />
+                    <p class="result" id="email-result"></p>    
+                </div>
+                <div class="input-container">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" />
+                    <p class="result" id="password-result"></p>    
+                </div>
+                <div class="input-container">
+                    <label for="confirm-password">Confirm password:</label>
+                    <input type="password" name="confirm-password" />
+                    <p class="result" id="confirm-password-result"></p>    
+                </div>
+                <div class="input-container">
+                    <input type="checkbox" name="is-company" />
+                    <label for="is-company">I am registering a company.</label>    
+                </div>        
+            </div>  
+            <div id="company-info">
+                <h2>Company Information:</h2>
+                <div class="input-container">
+                    <label for="company-number">Company Number:</label>
+                    <input type="text" name="company-number" />
+                    <p class="result" id="company-number-result"></p>    
+                </div>
+            </div>
+            <input type="button" value="submit" id="submit-btn" />
+        </form>            
+    </div>
+    
+    <script src="./validation.js"></script>
+</body>
+</html>

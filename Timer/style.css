@@ -1,0 +1,38 @@
+#timer {
+    width: 300px;
+    padding: 50px;
+    margin: auto;
+    border: 1px solid #333333;
+    border-radius: 20px;
+}
+.time {
+    font-size: 70px;
+    text-align: center;
+}
+.buttons {
+    margin-top: 20px;
+}
+button{
+    width: 48%;
+    padding: 15px 20px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:focus {
+    outline: none;
+}
+#start-timer {
+    background-color: #56CF47;
+}
+#start-timer:hover {
+    background-color: rgb(80, 189, 65);
+}
+#stop-timer {
+    background-color: rgb(224, 30, 39);
+    float: right;
+}
+#stop-timer:hover {
+    background-color: #C90F19;
+}

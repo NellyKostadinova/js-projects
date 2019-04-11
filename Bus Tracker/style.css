@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#schedule { 
+    width: 500px;
+    max-width: 80%;
+    margin: 50px auto;
+}
+#info { 
+    border: 1px solid #27335D; 
+    font-size: 20px;
+    text-align: center; 
+    padding: 20px; 
+    font-family: 'Montserrat', sans-serif;
+}
+#controls {
+    display: flex;
+    justify-content: center;
+}
+input { 
+    width: 140px; 
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    background-color: #A8C784;
+    font-family: 'Montserrat', sans-serif;
+}
+input:disabled {
+    background-color: rgb(214, 214, 214);
+}
+input:focus {
+    outline: none;
+}

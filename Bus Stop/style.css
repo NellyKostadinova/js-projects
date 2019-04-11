@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+div#wrapper {
+    width: 400px;
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 50px;
+    border: 1px solid #333333;
+}
+.input-wrapper label {
+    font-size: 20px;
+}
+#stopId {
+    font-family: 'Work Sans', sans-serif;
+    padding: 5px;
+    font-size: 16px;
+}
+#submit {
+    padding: 5px 25px;
+    font-size: 16px;
+}
+#stopName {
+    font-size: 24px;
+    padding: 30px;
+    background-color: #BDDCA9;
+    margin-top: 30px;
+}
+#buses {
+    padding: 15px 30px 0px;
+}
+.disclaimer {
+    border-bottom: 1px solid #333333;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
