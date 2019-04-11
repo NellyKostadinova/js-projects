@@ -1,6 +1,3 @@
-//The webhost will respond with valid data to IDs 1287, 1308, 1327 and 2334.
-//{"buses":{"4":13,"12":6,"18":7},"name":"St. Nedelya sq."}
-
 function getInfo() {
     let stopId = $("#stopId");
     let stopName = $('#stopName');
